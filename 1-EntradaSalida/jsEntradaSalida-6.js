@@ -3,18 +3,28 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	var numeroUno;
-	var numeroDos;
-	var resultado; 
 
-	numeroUno = document.getElementById('numeroUno').value;
-	numeroUno = parseInt(numeroUno);
+	var primer_campo;
 
-	numeroDos = document.getElementById('numeroDos').value;
-	numeroDos = parseInt(numeroDos);
+	var segundo_campo;
 
-	resultado = document.getElementById('resultado').value;
+	var resultado;
+
+	primer_campo= document.getElementById("numeroUno").value;
+
+	segundo_campo= document.getElementById("numeroDos").value;
+
+	resultado = parseInt(primer_campo)+ parseInt(segundo_campo);
+
+	alert(resultado);
+
 	
+
+
+
+
+
+
 
 
 
