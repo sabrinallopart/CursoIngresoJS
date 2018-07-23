@@ -2,21 +2,17 @@ function mostrar()
 {
 //tomo la edad  
 
-	var campoEdad;
+var numero;
 
-	campoEdad=document.getElementById("edad").value;
+numero=document.getElementById('edad').value;
+numero= parseInt(numero);
 
-	if (campoEdad==15) {
-		
-
-	campoEdad=alert("niña bonita");}
+if (numero==15) {
+alert('nena bonita');	
 
 }
 
 
 
-//FIN DE LA FUNCIÓN
 
-
-//if else
-
+}//FIN DE LA FUNCIÓN

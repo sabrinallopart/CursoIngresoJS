@@ -2,20 +2,14 @@ function mostrar()
 {
 //tomo la edad  
 
-	var campoEdad;
+var numero;
 
-		campoEdad=document.getElementById("edad").value;
+numero=document.getElementById('edad').value;
+numero=parseInt(numero);
 
-		if (campoEdad<=18) {
+if (numero >= 18) {
+alert('Es mayor de edad');
 
-		campoEdad=alert("es mayor");}
-
-		if (campoEdad>/18) {} else {
-
-			campoEdad=alert("es mejor");}
-		}
-
-
-	
+}
 
 }//FIN DE LA FUNCIÓN
